@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 
-@interface JenkinsNotifierAppDelegate : NSObject <NSApplicationDelegate>
+@interface JenkinsNotifierAppDelegate : NSObject <NSApplicationDelegate> 
 
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
